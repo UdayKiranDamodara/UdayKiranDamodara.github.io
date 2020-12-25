@@ -6,7 +6,6 @@ body {
     display: flex;
     flex-direction: column-reverse;
 }
-
 .projects-item{
     width: 95%;
     margin-left: auto;
@@ -16,16 +15,13 @@ body {
     border: 2px solid black;
     border-radius: 1.5rem;
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-
 h3 {
     color: blue;
 }
-
 .pa-left {
     padding-left: 2rem;
 }
