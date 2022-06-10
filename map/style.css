@@ -17,9 +17,9 @@ body {
   align-items: center;
 }
 
-/* #mapElement {
+#mapElement {
   width: 80vw;
-} */
+}
 
 ul {
   list-style-type: none;
@@ -44,8 +44,8 @@ ul {
 }
 
 .markerIcon {
-  /* width: 0.5vw; */
-  width: 10px;
+  width: 0.5vw;
+  /* width: 10px; */
 }
 .marker:hover {
   cursor: pointer;
