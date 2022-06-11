@@ -6,7 +6,8 @@
 html {
   /* height: 100vh;
   width: 100vw; */
-  background-color: aqua;
+  /* background-color: aqua; */
+  font-size: 50px;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 }
 
 #mapElement {
-  width: 80vw;
+  width: 60vw;
 }
 
 ul {
@@ -31,6 +32,9 @@ ul {
 
 #innerContainer {
   position: relative;
+  font-size: 0;
+  height: 33vw;
+  overflow-y: hidden;
 }
 
 .relative {
@@ -44,9 +48,12 @@ ul {
 }
 
 .markerIcon {
-  width: 0.5vw;
+  width: 0.75vw;
+  padding: 0;
+  margin: 0;
   /* width: 10px; */
 }
+
 .marker:hover {
   cursor: pointer;
 }
@@ -64,6 +71,7 @@ ul {
   top: 150%;
   left: 50%;
   margin-left: -60px;
+  font-size: 12px;
 }
 
 .marker .tooltiptext::after {
@@ -87,3 +95,19 @@ ul {
   left: 10;
   top: 0;
 }
+
+.rm-spacing {
+  font-size: 0;
+}
+/* .zero {
+  padding: 0;
+  min-height: 0;
+  max-height: 20;
+  font-size: 0;
+}
+
+.one {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+} */
